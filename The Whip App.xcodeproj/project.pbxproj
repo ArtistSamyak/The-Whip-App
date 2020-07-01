@@ -13,6 +13,7 @@
 		E306AD5824ACC1E400AFB7A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E306AD5624ACC1E400AFB7A2 /* Main.storyboard */; };
 		E306AD5A24ACC1E700AFB7A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E306AD5924ACC1E700AFB7A2 /* Assets.xcassets */; };
 		E306AD5D24ACC1E700AFB7A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E306AD5B24ACC1E700AFB7A2 /* LaunchScreen.storyboard */; };
+		E306AD6524ACD0EC00AFB7A2 /* whip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E306AD6424ACD0EC00AFB7A2 /* whip.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E306AD5924ACC1E700AFB7A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E306AD5C24ACC1E700AFB7A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E306AD5E24ACC1E700AFB7A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E306AD6424ACD0EC00AFB7A2 /* whip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = whip.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				E306AD5424ACC1E400AFB7A2 /* ViewController.swift */,
 				E306AD5624ACC1E400AFB7A2 /* Main.storyboard */,
 				E306AD5924ACC1E700AFB7A2 /* Assets.xcassets */,
+				E306AD6424ACD0EC00AFB7A2 /* whip.mp3 */,
 				E306AD5B24ACC1E700AFB7A2 /* LaunchScreen.storyboard */,
 				E306AD5E24ACC1E700AFB7A2 /* Info.plist */,
 			);
@@ -127,6 +130,7 @@
 			files = (
 				E306AD5D24ACC1E700AFB7A2 /* LaunchScreen.storyboard in Resources */,
 				E306AD5A24ACC1E700AFB7A2 /* Assets.xcassets in Resources */,
+				E306AD6524ACD0EC00AFB7A2 /* whip.mp3 in Resources */,
 				E306AD5824ACC1E400AFB7A2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,12 +291,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9D632BTGH;
 				INFOPLIST_FILE = "The Whip App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.The-Whip-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The Whip App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +310,13 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = G9D632BTGH;
 				INFOPLIST_FILE = "The Whip App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ArtistSamyak.The-Whip-App";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "The Whip App";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
